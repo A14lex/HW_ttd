@@ -35,5 +35,37 @@ public class PhoneBookTest {
         Assertions.assertTrue("303".equals(number), "Тест поиска номера по имени не пройден");
 
     }
+    @Test
+    public void testPrintAllNames(){
+        //здесь нужно проверить как этот метод выводит имена в алфавитном порядке
+        /*
+        Метод будет выводить набор имен, и нужно проверить что они вообще есть, и расположены в алфавитном порядке
+         */
+        PhoneBook phoneBook = new PhoneBook();
+        phoneBook.add("Nonna", "303");
+        phoneBook.add("Monna", "304");
+        int i = 0; // счетчик вывода имен
+        String postString="";// cтрока (имя), которая как-бы была предыдущей
+        boolean b = false;//критерий что строки идут в алфавитном порядке
+        if(phoneBook.printAllNames()!=null){
+            for (String string :
+                    phoneBook.printAllNames()) {
+
+
+                if(i!=0){
+                    b=(string.compareTo(postString))>0;
+                    if(!b){
+                        break;//критерий не выполняется хотя-бы один раз - нарушение условия
+                    }
+                }
+                postString = string;
+                i++;
+
+            }
+        }
+
+        Assertions.assertTrue(b, "Имена выводятся не в алфавитном порядке (хотя бы один раз) или не выводятся вообще");
+
+    }
 
 }

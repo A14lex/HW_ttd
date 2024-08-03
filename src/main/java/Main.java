@@ -24,19 +24,28 @@ public class Main {
 ---Убедиться, что всё компилируется и тесты не проходят. Сделать коммит с сообщением Stub and tests for findByNumber.---
 ---Реализовать метод findByNumber так, чтобы все тесты проходили.---
 ---Сделать коммит с сообщением findByNumber implemented.---
+
 ------Создать тест или тесты на метод findByName в классе тестов PhoneBookTest.---
 ---Убедиться, что всё компилируется и тесты не проходят. Сделать коммит с сообщением Stub and tests for findByName.---
 ---Реализовать метод findByName так, чтобы все тесты проходили.---
----Сделать коммит с сообщением findByName implemented.
-...
+---Сделать коммит с сообщением findByName implemented.----
+---Создать пустой метод-заглушку printAllNames в классе PhoneBook, который только возвращает 0.---
+...------Создать тест или тесты на метод printAllNames в классе тестов printAllNames.
+---Убедиться, что всё компилируется и тесты не проходят. Сделать коммит с сообщением Stub and tests for printAllNames.
+Реализовать метод printAllNames так, чтобы все тесты проходили.
+Сделать коммит с сообщением printAllNames implemented.
 
      */
 
     public static void main(String[] args) {
 
-        String name = "yojjj";
-        String name2= "so";
-        System.out.println(name.compareTo(name2));
+       PhoneBook phoneBook = new PhoneBook();
+       phoneBook.add("A", "1");
+       phoneBook.add("Y", "2");
+       phoneBook.add("Z", "3");
+       phoneBook.add("L", "4");
+       System.out.println(phoneBook.printAllNames());
+
 
     }
 
