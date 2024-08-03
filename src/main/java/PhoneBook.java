@@ -3,15 +3,18 @@ import java.util.Map;
 
 public class PhoneBook {
     //вывести или найти имя без полного перебора это наверно реализовать это в мапе
-    Map<String, String> map = new HashMap<>();
+    Map<String, String> mapOfName = new HashMap<>();
+    Map<String, String> mapOfNumber = new HashMap<>();
 
     public int add(String name, String phoneNumber) {
-        if (!map.containsKey(name)) {
-            map.put(name, phoneNumber);
+        if (!mapOfName.containsKey(name)) {
+            mapOfName.put(name, phoneNumber);
+            mapOfNumber.put(phoneNumber, name);
         }
-        return map.size();
+        return mapOfName.size();
     }
     public String findByNumber(String number){
-        return null;
+        //найти имя по номеру без полного перебора
+        return mapOfNumber.get(number);
     }
 }

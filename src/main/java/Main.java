@@ -21,9 +21,9 @@ public class Main {
 ---Сделать коммит с сообщением add implemented.---
 ---Создать пустой метод-заглушку findByNumber в классе PhoneBook, который только возвращает null.---
 ---Создать тест или тесты на метод findByNumber в классе тестов PhoneBookTest.---
----Убедиться, что всё компилируется и тесты не проходят. Сделать коммит с сообщением Stub and tests for findByNumber.
-Реализовать метод findByNumber так, чтобы все тесты проходили.
-Сделать коммит с сообщением findByNumber implemented.
+---Убедиться, что всё компилируется и тесты не проходят. Сделать коммит с сообщением Stub and tests for findByNumber.---
+---Реализовать метод findByNumber так, чтобы все тесты проходили.---
+---Сделать коммит с сообщением findByNumber implemented.
 ...
 
      */
