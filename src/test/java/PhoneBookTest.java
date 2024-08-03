@@ -20,5 +20,12 @@ public class PhoneBookTest {
          i = phoneBook.add("noName", "123");
         Assertions.assertTrue(i!=0, "Количество записей не изменилось после добавления нового имени");
     }
+    @Test
+    public void testfindByNumber(){
+        PhoneBook phoneBook = new PhoneBook();
+        phoneBook.add("Nonna", "303");
+        String name = phoneBook.findByNumber("303");
+        Assertions.assertTrue("Nonna".equals(name), "Тест поиска имени по номеру не пройден");
+    }
 
 }

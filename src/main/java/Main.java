@@ -18,14 +18,22 @@ public class Main {
 ---Создать тест или тесты на метод add в классе тестов PhoneBookTest.---
 ---Убедиться, что всё компилируется и тесты не проходят. Сделать коммит с сообщением Stub and tests for add.---
 ---Реализовать метод add так, чтобы все тесты проходили.---
----Сделать коммит с сообщением add implemented.
-Создать пустой метод-заглушку findByNumber в классе PhoneBook, который только возвращает null.
-Создать тест или тесты на метод findByNumber в классе тестов PhoneBookTest.
-Убедиться, что всё компилируется и тесты не проходят. Сделать коммит с сообщением Stub and tests for findByNumber.
+---Сделать коммит с сообщением add implemented.---
+---Создать пустой метод-заглушку findByNumber в классе PhoneBook, который только возвращает null.---
+---Создать тест или тесты на метод findByNumber в классе тестов PhoneBookTest.---
+---Убедиться, что всё компилируется и тесты не проходят. Сделать коммит с сообщением Stub and tests for findByNumber.
 Реализовать метод findByNumber так, чтобы все тесты проходили.
 Сделать коммит с сообщением findByNumber implemented.
 ...
 
      */
+
+    public static void main(String[] args) {
+
+        String name = "yojjj";
+        String name2= "so";
+        System.out.println(name.compareTo(name2));
+
+    }
 
 }
