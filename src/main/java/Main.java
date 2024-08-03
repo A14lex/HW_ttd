@@ -23,7 +23,11 @@ public class Main {
 ---Создать тест или тесты на метод findByNumber в классе тестов PhoneBookTest.---
 ---Убедиться, что всё компилируется и тесты не проходят. Сделать коммит с сообщением Stub and tests for findByNumber.---
 ---Реализовать метод findByNumber так, чтобы все тесты проходили.---
----Сделать коммит с сообщением findByNumber implemented.
+---Сделать коммит с сообщением findByNumber implemented.---
+------Создать тест или тесты на метод findByName в классе тестов PhoneBookTest.---
+---Убедиться, что всё компилируется и тесты не проходят. Сделать коммит с сообщением Stub and tests for findByName.
+Реализовать метод findByName так, чтобы все тесты проходили.
+Сделать коммит с сообщением findByNumber implemented.
 ...
 
      */

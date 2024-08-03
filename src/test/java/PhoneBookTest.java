@@ -27,5 +27,13 @@ public class PhoneBookTest {
         String name = phoneBook.findByNumber("303");
         Assertions.assertTrue("Nonna".equals(name), "Тест поиска имени по номеру не пройден");
     }
+    @Test
+    public void testFindByName(){
+        PhoneBook phoneBook = new PhoneBook();
+        phoneBook.add("Nonna", "303");
+        String number = phoneBook.findByName("Nonna");
+        Assertions.assertTrue("303".equals(number), "Тест поиска номера по имени не пройден");
+
+    }
 
 }
