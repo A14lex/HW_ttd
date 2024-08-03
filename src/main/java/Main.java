@@ -31,8 +31,8 @@ public class Main {
 ---Сделать коммит с сообщением findByName implemented.----
 ---Создать пустой метод-заглушку printAllNames в классе PhoneBook, который только возвращает 0.---
 ...------Создать тест или тесты на метод printAllNames в классе тестов printAllNames.
----Убедиться, что всё компилируется и тесты не проходят. Сделать коммит с сообщением Stub and tests for printAllNames.
-Реализовать метод printAllNames так, чтобы все тесты проходили.
+---Убедиться, что всё компилируется и тесты не проходят. Сделать коммит с сообщением Stub and tests for printAllNames.---
+---Реализовать метод printAllNames так, чтобы все тесты проходили.---
 Сделать коммит с сообщением printAllNames implemented.
 
      */

@@ -22,8 +22,8 @@ public class PhoneBook {
         return mapOfName.get(name);
     }
     public Set<String> printAllNames(){
-//        return mapOfName.keySet();
-        return null;
+        return mapOfName.keySet();
+
     }
 
 }
