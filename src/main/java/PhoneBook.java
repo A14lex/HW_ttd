@@ -19,7 +19,7 @@ public class PhoneBook {
     }
     public String findByName(String name){
         //найти имя по номеру без полного перебора
-        return null;
-//        return mapOfName.get(name);
+//        return null;
+        return mapOfName.get(name);
     }
 }
